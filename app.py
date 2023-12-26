@@ -8,7 +8,7 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv()
 
-genai.configure(api_key = "AIzaSyCGEUherYJud9qvqRZ9EWW_tvbOJla5mjM")
+genai.configure(api_key = 'AIzaSyCGEUherYJud9qvqRZ9EWW_tvbOJla5mjM')
 
 st.set_page_config(page_title="FR" ,page_icon="📸", layout="centered", initial_sidebar_state='collapsed')
 
